@@ -23,7 +23,7 @@ public class Admin {
     @Column(name = "hashed_password", length = 256, nullable = false)
     private String hashedPassword;
 
-    @Column(name = "signup_date", nullable = false)
+    @Column(name = "signup_date")
     private LocalDate signupDate;
 
     @Column(name = "name", length = 30, nullable = false)
